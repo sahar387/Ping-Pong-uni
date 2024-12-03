@@ -62,5 +62,6 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = playerMove * movementSpeed;
+        
     }
 }

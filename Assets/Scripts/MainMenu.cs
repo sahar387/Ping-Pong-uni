@@ -10,8 +10,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        print("play");
-        //SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync("Level1");
     }
 
 
